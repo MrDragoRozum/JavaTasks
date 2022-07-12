@@ -23,3 +23,15 @@ public String front3(String str) {
         }
         return tmp += tmp + tmp;
 }
+
+// или
+
+public String front3(String str) {
+  String tmp = "";
+	int count = Math.min(str.length(), 3);
+	      
+	for(int i = 0; i < count; i++) {
+    tmp = str.substring(0, i+1);
+  }
+  return tmp += tmp + tmp;
+}
