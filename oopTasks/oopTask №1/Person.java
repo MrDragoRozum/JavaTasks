@@ -1,4 +1,3 @@
-package oopTasks;
 
 public class Person {
 	int age;
