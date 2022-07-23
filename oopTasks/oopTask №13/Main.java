@@ -9,7 +9,7 @@ public class Main {
 		ArrayList<Worker> workers = new ArrayList<>();
 		ArrayList<Drive> drives = new ArrayList<>();
 		
-		Collections.addAll(workers, new Hand(), new Cook(), new Developer());
+		Collections.addAll(workers, new Head(), new Cook(), new Developer());
 		Collections.addAll(drives, new Cook(), new Developer());
 		
 		for (Drive drive : drives) {

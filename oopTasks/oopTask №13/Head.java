@@ -1,6 +1,6 @@
 package interfaces;
 
-public class Hand implements Worker {
+public class Head implements Worker {
 
 	@Override
 	public void work() {
